@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contacto</title>
+  <link rel="stylesheet" href="styles.css">  <!-- Archivo de estilos de la página -->
+  <link rel="icon" href="img/bici.png" type="image/x-icon">  <!-- logo de la página -->
+</head>
+<body>
+  <header>
+    <div class="encabezado">  <!-- Título de la página y menú-->
+       <img class= "logo" src="img/bici.png" alt="Imagen del logo bibicleta"> 
+       <h1 class="titulo">Golden Black: bicicleta sustentable</h1>
+    </div>
+ 
+    <nav class="menu"> <!-- Menú de la página-->
+      <ul>
+        <li ><a href="index.html">Inicio</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li><a href="proyecto.html">Proyecto</a></li>
+        <li><a href="galeria.html">Galeria de fotos</a></li>
+        <li class="seleccionado"><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main> <!--Contenido de la página de contacto-->
+   
+        <div  class="principal"> <!--Formulario de contacto-->
+          
+           <form action="#" method="post">
+                <h1>Contáctanos</h1>
+                <h2>Queremos saber tu opinión</h2>
+                <h3>Cuéntanos qué te pareció nuestro proyecto</h3>
+
+          <!-- Campo de nombre -->
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required="">
+                <br><br>
+          <!-- Campo de correo electrónico -->
+               <label for="email">Correo electrónico:</label>
+               <input type="email" id="email" name="email" required="">
+               <br><br>
+
+          <!-- Selector de Gusto -->
+               <label>Te gustó el proyecto:</label><br>
+               <input type="radio" id="si" name="gusto" value="si"> 
+               <label for="si">Si</label>
+               <br>  
+               <input type="radio" id="no" name="gusto" value="no"> 
+               <label for="no">No</label>
+               <br>
+               <input type="radio" id="no_contesta" name="gusto" value="no_contesta"> 
+               <label for="no_contesta">No contesta</label>     
+               <br><br>
+  
+          <!-- Campo de Comentario --> 
+              <label for="mensaje">Para nosotros es muy valioso que nos dejes un comentario:</label><br>
+              <textarea id="mensaje" name="mensaje" rows="5" required=""></textarea>
+              <br><br> 
+
+          <!-- Botón de envío -->
+              <button type="submit">Enviar</button>
+        </form> <!--* Fin del formulario -->
+
+        </div>
+
+
+        <div class="principal"> <!--Link a redes sociales-->              
+            <a href="https://www.instagram.com/golden_black_del_team_lfm?igsh=NzU4MnZnaTdmd3pn"><img class="logo" src="img/Instagram_logo.png" alt="Icono de Instagram"></a>
+            <p>¡Te invitamos a que también nos puedas seguir en Instagram!</p>
+          
+
+        </div>
+  </main>
+
+<!-- Pie de la página -->
+
+  <footer>
+    <p> &copy; 2025 - Proyecto Olimpiadas Ceibal Do your bit 2022 -Liceo de Fray Marcos - Prof. Isolina Hernández </p>
+  </footer>
+</body>
+</html>
