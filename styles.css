@@ -54,6 +54,7 @@ header {
      text-align: center; /*Centra el texto horizontalmente */
      margin-right: 30px; /*Espacio externo de la derecha */
      margin-left: 40px;/*Espacio externo a la izquierda*/
+     display: block;/*El elemento ocupara todo el espacio del contenedor y empezara una nueva línea*/
 }
 
 .seleccionado{ /*Estilos aplicados cuando la opción del menú es seleccionada*/
