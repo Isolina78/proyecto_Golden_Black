@@ -53,7 +53,7 @@ header {
      color: white; /*Color de la fuente, blando*/
      text-align: center; /*Centra el texto horizontalmente */
      margin-right: 30px; /*Espacio externo de la derecha */
-     margin-left: 40px;/*Espacio externo a la izquierda*/
+     margin-left: 20px;/*Espacio externo a la izquierda*/
      display: block;/*El elemento ocupara todo el espacio del contenedor y empezara una nueva línea*/
 }
 
