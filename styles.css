@@ -53,14 +53,8 @@ header {
      color: white; /*Color de la fuente, blando*/
      text-align: center; /*Centra el texto horizontalmente */
      margin-right: 30px; /*Espacio externo de la derecha */
-     margin-left: 20px;/*Espacio externo a la izquierda*/
+     margin-left: 10px;/*Espacio externo a la izquierda*/
      display: block;/*El elemento ocupara todo el espacio del contenedor y empezara una nueva línea*/
-}
-
-.seleccionado{ /*Estilos aplicados cuando la opción del menú es seleccionada*/
-       background-color: rgb(206, 193, 21); /*Color de fondo, amarillo*/
-       border-radius: 10px; /*Borde redondeado*/
-       font-weight: bold;  /*Coloca estilo negrita a la fuente*/
 }
 
 .menu a:hover{ /* Estilos aplicados cuando se pasa el mouse por encima de un elemento del menú*/
@@ -72,6 +66,12 @@ header {
     color: coral; /*Color de fuente, coral*/
     font-weight: bold; /* Colocar estilo negrita a la fuente */
     background-color: rgb(206, 193, 21);/*Coloca color de fondo amarillo*/
+}
+
+.seleccionado{ /*Estilos aplicados cuando la opción del menú es seleccionada*/
+       background-color: rgb(206, 193, 21); /*Color de fondo, amarillo*/
+       border-radius: 10px; /*Borde redondeado*/
+       font-weight: bold;  /*Coloca estilo negrita a la fuente*/
 }
 
 .section{ /* Estilos para todas las secciones de la página*/
