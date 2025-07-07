@@ -1,0 +1,240 @@
+/* --------------Estilo general del body ------ */
+body{ 
+    background-color: black; /* Color de fondo, negro */
+    font-family:sans-serif; /*Tipo de fuente */
+}
+
+/* ------------estilo encabezado ----------- */
+header {   
+  margin: 5px; /* Espacio externo */
+  padding: 5px; /*Espacio interno */
+}
+
+.encabezado{
+     display: flex; /* Coloca los elementos en fila (horizontalmente) */
+     flex-direction: row;/* Permite que las tarjetas bajen si no caben horizontalmente */
+     align-items: center; /*Centra el texto horizontalmente */
+     justify-content: center;  /* Centra los elementos horizontalmente*/     
+}
+
+
+.logo{
+     width: 60px;/*Ancho de la imagen*/
+     height: 60px;/*Altura de la imagen*/
+     border-radius: 30px;  /*Bordes muy redondeados*/
+     margin-right: 30px;  /*Espacio exterior*/ 
+            
+}
+
+.titulo{   /*Estilo del título de la página */
+    font-family: Verdana, Geneva, Tahoma, sans-serif; /*Fuente del título */
+    color:aliceblue; /* Color de fuente */
+      
+}
+
+/* ------ Estilo del menú  ------------- */
+        
+.menu{            
+    flex-direction: row;/* Permite que las tarjetas bajen si no caben horizontalmente */
+    justify-content: center;/* Centra los elementos horizontalmente*/
+    display: flex; /* Coloca los elementos en fila (horizontalmente) */
+    padding: 5px;  /*Espacio interno*/
+}
+
+.menu ul{
+    font-size: 16px; /*Tamaño de la fuente del menú en 16*/
+    list-style: none;/*Quita las viñetas de la lista*/
+    display: flex;/* Coloca los elementos en fila (horizontalmente) */
+    margin-top: 20px; /*Espacio externo superior*/         
+ }
+ 
+.menu a{
+     text-decoration: none;/*Quitar el subrayado del link*/
+     color: white; /*Color de la fuente, blando*/
+     text-align: center; /*Centra eithul texto horizontalmente */
+     margin-right: 30px; /*Espacio externo de la derecha */
+     margin-left: 10px;/*Espacio externo a la izquierda*/
+     display: block;/*El elemento ocupara todo el espacio del contenedor y empezara una nueva línea*/
+}
+
+
+.menu a:hover{ /* Estilos aplicados cuando se pasa el mouse por encima de un elemento del menú*/
+    color: coral;/*Color de fuente, coral*/
+    font-weight: bold; /*Colocar estilo negrita a la fuente*/  
+}
+
+.menu a:active{ /*Estilos aplicados cuando se hace clic con el mouse sobre un elemento del menú */
+    color: coral; /*Color de fuente, coral*/
+    font-weight: bold; /* Colocar estilo negrita a la fuente */
+    background-color: rgb(206, 193, 21);/*Coloca color de fondo amarillo*/
+}
+
+.seleccionado{ /*Estilos aplicados cuando la opción del menú es seleccionada*/
+       background-color: rgb(206, 193, 21); /*Color de fondo, amarillo*/
+       border-radius: 10px; /*Borde redondeado*/
+       font-weight: bold;  /*Coloca estilo negrita a la fuente*/
+}
+
+
+/* ----- Estilo de subtitulos y texto de las páginas*/
+
+h1{
+    display: flex;/* Coloca los elementos en fila (horizontalmente) */
+    text-align: center; /*Centra el texto horizontalmente */
+    justify-content: center;/* Centra los elementos horizontalmente*/
+}
+
+h2 {
+    font-size: 20px; /* Tamaño de la fuente para todos los h2 de la página */
+    display: flex;/* Coloca los elementos en fila (horizontalmente) */
+    text-align: center; /*Centra el texto horizontalmente */
+    justify-content: center;/* Centra los elementos horizontalmente*/
+}
+
+h3 {
+    font-size: 18px; /* Tamaño de la fuente para todos los h3 de la página */
+    display: flex; /*Coloca los elementos en fila (horizontalmente) */
+    text-align: center; /*Centra el texto horizontalmente */
+    justify-content: center;/* Centra los elementos horizontalmente*/
+}
+
+p{
+    font-size: 16px;/*Tamaño de la fuente en 16 para todos los p de la página*/
+}
+
+/* ------- Estilo contendio del  index ----------- */
+
+.principal{/* Estilos aplicados al recuadro contenedor de contenido*/
+  display: flex;/*Coloca los elementos en fila (horizontalmente) */
+  justify-content:space-around; /* Distribuye el espacio entre los contenedores*/
+  flex-wrap: wrap;/* Permite que las tarjetas bajen si no caben horizontalmente */ 
+  width: 60%; 
+  border: solid, rgb(206, 193, 21);/*Aplicar borde, solido de color amarillo*/
+  border-radius: 20px; /* Bordes redondeados*/
+  background-color: white; /*Color de fondo  blanco*/
+  color:black;/*Color de la fuente del contenedor, negro */
+  padding: 15px;/* Espacio interno */  
+  margin: 5px 18%;/*Espacio superior e inferior de 5px y izquierdo - derecho de 15% */
+  
+}
+
+.section{ /* Estilos para todas las secciones de la página*/
+    margin: 5px; /* Espacio externo */
+    padding: 10px; /*Espacio interno */
+}   
+
+.section_portada{/*Sección donde se encuentra la imagen de portada*/
+     max-width: 45%;/*Ancho de la sección*/
+     margin: 5px; /*Espacio exterior del contendio*/
+     padding: 5px; /*Espacio interno */
+}
+
+.cuadro_text{
+     max-width: 45%;/* Ancho del contenedor ajustable*/
+     margin: 5px; /*Espacio exterior del contendio*/
+     padding: 5px; /*Espacio interno */
+}
+
+.portada{/*Estilos aplicados a la imagen de portada*/
+    border-radius: 10px;/*Bordes redondeados*/
+    max-width: 100%; /*Ancho de la imagen ajustable al contenedor*/
+    max-height: 100%;/*Altura de la imagen ajustable al contenedor*/
+    margin: 10px;/*Espacio externo*/
+}
+
+/* ------- Estilo contendio del  Equipo ----------- */
+
+.equipo{
+  display: flex; /* Coloca los elementos en fila (horizontalmente) */
+  flex-wrap: wrap; /* Permite que las tarjetas bajen si no caben horizontalmente */
+  justify-content: center; /* Centra los elementos horizontalmente*/
+  
+}
+.cuadro_text2{/* Estilos aplicados al contendor cuadro de texto de la página */
+  border: solid, rgb(206, 193, 21); /*Aplicar borde tipo sólido de color amarillo*/
+  border-radius: 20px; /*Redondear bordes*/
+  background-color: white; /*Color de fondo blanco*/
+  color:black;/*Color de la fuente dentro del cuadro*/
+  padding: 10px;/*Espacio interno alrededor del contenido*/
+  margin: 20px;/*Espacio externo */
+  width: 220px;/*Ancho del cuadro contenedor*/
+  height: auto;/*Altura automática del cuadro del contenedor*/
+}
+
+#team{
+    font-size: 60px;/*Estilo aplicado al Nombre del Equipo*/
+}
+
+#video_est{/*Estilo aplicado al vídeo de estudiantes del Equipo*/
+    max-width: 125%;/*Ancho del vídeo ajustable al contenedor*/
+    max-height: 125%;/*Altura del vídeo ajustable al contenedor*/
+    padding-top: 2px;/*Espacio antes de la imagen*/
+}
+
+.foto_est{ /*Estilos aplicados a la fotos de la estudiantes en la pág Equipo*/
+     width: 80px;/*Ancho de la foto*/
+     height: 80px;/*Altura de la foto*/
+     border-radius: 30px;  /*Borde redondeado*/
+     margin-left: 75px;  /* Espacio a la izquierda de la foto*/       
+}
+
+
+/* ------- Estilo contendio del  Proyecto----------- */
+
+.esquema_circuito{/* Estilos aplicados a los esquemas de los circuitos de la bicicleta */
+     max-width: 90%;/*Ancho de la imagen del esquema*/
+     height: auto;/*Altura automático del a imagen del esquema*/
+     border-radius: 15px;  /*Borde redondeado*/
+     margin: 5px 5%; /*Espacio externo alrededor de la imagen del equema*/
+}
+
+.video_const{ /*Estilos aplicados al video del proyecto de la bici */
+    max-width: 30%; /*Ancho del vídeo*/
+    height: auto;/*Altura del vídeo automática*/
+    margin-left: 30%; /*Espacio externo izquierdo ajustable*/
+   
+}
+
+/* ------- Estilo contendio de Galería de fotos----------- */
+
+.video_bici{ /*Estilos aplicados al video del proyecto de la bici en la Galeria*/
+    max-width: 100%; /*Ancho del vídeo*/
+    max-height: 100%;/*Altura del vídeo*/
+}
+
+.pie_video{
+    display: flex; /* Organiza los elementos en fila horizontal */
+    align-items: center;/*Alinear al centro*/
+    justify-content: space-around;/*Espacio entre los elementos */
+}
+
+.pie_video img{
+    padding-top: 2px;/*Espacio antes de la imagen*/
+}
+ 
+.foto{ /* Estilos aplicados a la fotos de la Galeria*/
+    margin: 5px; /*Espacio alrededor*/
+    border-radius: 10px;/*Borde redondeado*/
+    width: 210px; /*Ancho dado a las fotos*/
+    height: 210px; /*Altura dada a las fotos*/
+ }
+
+ /* ------- Estilo contendio del  Formulario de Contacto----------- */
+
+.campo {
+  width: 100%; /* Tamaño de los campos del formulario de contacto*/
+  border-radius: 5px;
+}
+
+
+
+/*--------- Estilos del pie de la página------------------------- */
+footer{
+     margin: 20px; /* Espacio alrededor del pie */     
+}
+
+footer p{
+    font-size: 12px; /*Tamaño de la fuente */
+     color:aliceblue; /*Color de la fuente*/
+     text-align: center;  /*Centrar el texto */  
+}

@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecto</title>
+  <link rel="stylesheet" href="styles.css">  <!-- Archivo de estilos de la página -->
+  <link rel="icon" href="img/bici.png" type="image/x-icon">  <!-- logo de la página -->
+</head>
+<body>
+  <header>
+    <div class="encabezado">  <!-- Título de la página y menú-->
+       <img class= "logo" src="img/bici.png" alt="Imagen del logo bibicleta"> 
+       <h1 class="titulo">Golden Black: bicicleta sustentable</h1>
+    </div>
+ 
+    <nav class="menu"> <!-- Menú de la página-->
+      <ul>
+        <li><a href="index.html">Inicio</a></li>
+        <li><a href="equipo.html">Equipo</a></li>
+        <li class="seleccionado"><a href="proyecto.html">Proyecto</a></li>
+        <li><a href="galeria.html">Galeria de fotos</a></li>
+        <li><a href="contacto.html">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+
+   <main>
+       
+  <!-- Sección principal de la página del Proyecto -->
+
+  <div class="principal"> <!--Sección del Problema detectado-->
+      <section class="section_portada">
+      <img class="portada" src="img/auto_co2.png" alt="Dibujo de un auto emitiendo CO2">
+      </section>
+      <section class="cuadro_text">
+         <h2>Problema</h2>
+         <p>El problema que notamos  en nuestra ciudad, es que se recorren cortas distancias con automóvil o moto, generando una alta tasa de gases contaminantes.</p>
+         <p>Para transitar por nuestra localidad de punta a punta se emiten unos 300 gr de CO2 aproximadamente y esta cifra puede ser superior en ciudades más grandes como lo es Montevideo.</p>
+         <p>Estas emisiones se acumulan en la atmósfera y sobrecalientan el planeta, acelerando el cambio climático.</p>
+        </section>
+   </div>     
+  
+  <div class="principal"> <!--Sección de la solución planteada-->
+     <section>
+         <h2>Solución</h2>
+         <p>Para reducir la huella de carbono podemos andar en bicicleta.</p>
+         <p>Es una solución simple, pero  generalmente no pensamos que al realizar esta actividad  también podemos estar generando energía y favoreciendo a la descarbonización del ambiente.</p>
+          <img class="esquema_circuito" src="img/Esquema.png" alt="Esquema de la situación planteada por el equipo">     
+      </section>
+   </div>
+
+   <div class="principal"> <!--Sección de la Idea-->
+      <section>
+         <h2>Idea</h2>
+         <p>Construir una bicicleta que permita transitar por la ciudad de forma segura y al mismo tiempo generar energía limpia que podemos utilizar, por ejemplo para cargar un celular e iluminación.</p>
+         <p>Para ello le agregamos un dinamo que permite transformar la energía mecánica en energía eléctrica.</p>
+         <p>Y además mientras se anda en bicicleta se puede cargar un celular.</p>
+         <img class="esquema_circuito" src="img/Circuito bici.png" alt="Circuito electríco del bicicleta">
+         <p>La energía eléctrica generada carga pilas que sirven de alimentación para dos placas micro:bit que tienen la función de señaleros y baliza al frenar y por la noche.</p>
+         <img class="esquema_circuito" src="img/Microbit Señaleros.png" alt="Circuito de señaleros con la placa micro:bit" >
+         <p>También alimenta una placa arduino que puede calcular la distancia recorrida mediante contar las vueltas que realiza una de las ruedas, utilizando un imán y sensor de efecto hall, la distancia obtenida se muestra en una pantalla.</p>
+         <img  class="esquema_circuito" src="img/CIRCUITO ARDUINO.png" alt="Circuito de la placa Arduino con el sensor Hall">
+        </section>
+   </div>
+
+   <div class="principal"> <!--Sección de la Construcción de la bicicleta-->
+     <section>
+         <h2>Construcción</h2>
+         <p>En el siguiente vídeo te mostramos cómo fue el proceso de construcción de la bicicleta sustentable Golden Black</p>
+         <video class="video_const" controls>
+           <source src="video/Golden_Black.mp4" title="Vídeo de construcción de la bicicleta">
+         </video>
+        </section> 
+    </div> 
+
+  </main>
+
+<!-- Pie de la página -->
+
+  <footer>
+    <p> &copy; 2025 - Proyecto Olimpiadas Ceibal Do your bit 2022 -Liceo de Fray Marcos - Prof. Isolina Hernández </p>
+  </footer>
+</body>
+</html>
